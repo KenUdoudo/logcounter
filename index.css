@@ -40,6 +40,11 @@ h2 {
 button {
   margin-top: 10px;
 }
+input {
+  padding: 5px;
+  border-width: 0;
+  background: grey;
+}
 .msg {
   margin: 10px;
   background-color: red;
