@@ -43,7 +43,7 @@ button {
 input {
   padding: 5px;
   border-width: 0;
-  background: grey;
+  background: rgba(197, 196, 196, 0.356);
 }
 .msg {
   margin: 10px;
