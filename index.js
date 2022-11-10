@@ -7,6 +7,8 @@ function submit(){
   myForm.preventDefault();
   
   if(userName.value === "" || eMail.value === ""){
+     msg.innerHTML = "Please Enter Fields";
 
+    setTimeout(() => msg.remove(), 3000);
     }
 }
