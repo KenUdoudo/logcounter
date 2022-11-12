@@ -40,7 +40,7 @@ h2 {
 button {
   margin-top: 10px;
   padding: 5px 10px;
-  background: blue;
+  background: red;
   border-width: 0;
   border-radius: 5px;
   color: white;
@@ -52,9 +52,9 @@ input {
   border-width: 0;
   background: rgba(223, 212, 212, 0.705);
 }
-.msg {
+/*.msg {
   margin: 10px;
   background-color: red;
   color: white;
   padding: 5px 8px;
-}
+}*/
