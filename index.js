@@ -3,8 +3,8 @@ let eMail = document.getElementsByClassName('eMail')
 let myForm = document.getElementsByClassName('myForm')
 let msg = document.getElementsByClassName('msg')
 
-function submit(e){
-  e.preventDefault();
+function submit(){
+  myForm.preventDefault();
   
   if(userName.value === "" || eMail.value === ""){
      msg.innerHTML = "Please Enter Fields";
