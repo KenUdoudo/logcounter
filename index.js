@@ -4,7 +4,7 @@ let myForm = document.getElementsByClassName('myForm')
 let msg = document.getElementsByClassName('msg')
 
 function submit(){
-  myForm.preventDefault();
+  e.preventDefault();
   
   if(userName.value === "" || eMail.value === ""){
      msg.innerHTML = "Please Enter Fields";
